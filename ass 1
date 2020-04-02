@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main()
+{
+    printf("malavika santhosh,\n");
+    printf("electronics and communication");
+    printf("college of engineering chengannur")
+}
