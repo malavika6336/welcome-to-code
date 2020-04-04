@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+{
+   double P; 
+   double R;
+   double T;
+   double S;
+   printf("enter the principle amount:\n",P);
+   scanf("1f",&P);
+   printf("enter the interest rate:\n",R);
+   scanf("%1f",&R);
+   printf("enter the time period:\n",T);
+   scanf("%1f",&T);
+   S=P*(1+R*T);
+   printf("Simple interest is %f\n",S);
+}
