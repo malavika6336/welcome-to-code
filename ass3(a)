@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+   char name[25];
+   double mark1; 
+   double mark2;
+   double sum;
+   double av;
+   printf("enter your name:\n",name);
+   scanf("%s",&name);
+   printf("maths mark:\n",mark1);
+   scanf("%f",&mark1);
+   printf("chemistry mark:\n",mark2);
+   scanf("%d",mark2);
+   sum=mark1+mark2;
+   printf("the sum is %f\n",sum);
+   av=sum/2;
+    printf("the average is%f\n",av);
+   
+}
